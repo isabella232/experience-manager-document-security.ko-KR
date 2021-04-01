@@ -1,5 +1,5 @@
 ---
-cloud: experience-cloud
+cloud: Experience Cloud
 product: adobe experience manager
 solution: Experience Manager
 type: 설명서
@@ -9,11 +9,11 @@ breadcrumb-title: 문서 보안 안내서
 user-guide-description: Document Security Extension for Microsoft® Office를 사용하면 권한이 부여된 사용자만 지적 재산이 포함된 Word, Excel 및 PowerPoint 파일을 사용할 수 있습니다.
 feature: 문서 보안
 role: 비즈니스 전문가
-translation-type: ht
-source-git-commit: f441620b5463ffa0c038f76e1b92c4e3a56d23b2
-workflow-type: ht
-source-wordcount: '102'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 7be2b17e7685a391dcccde2cc008802b5773cadf
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
