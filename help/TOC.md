@@ -7,12 +7,11 @@ audience: end-user
 user-guide-title: Adobe Experience Manager 문서 보안 안내서
 breadcrumb-title: 문서 보안 안내서
 user-guide-description: Document Security Extension for Microsoft® Office를 사용하면 권한이 부여된 사용자만 지적 재산이 포함된 Word, Excel 및 PowerPoint 파일을 사용할 수 있습니다.
-feature: Document Security
+feature: 문서 보안
 role: Business Practitioner
-translation-type: ht
 source-git-commit: 7be2b17e7685a391dcccde2cc008802b5773cadf
-workflow-type: ht
-source-wordcount: '102'
+workflow-type: tm+mt
+source-wordcount: '99'
 ht-degree: 100%
 
 ---
