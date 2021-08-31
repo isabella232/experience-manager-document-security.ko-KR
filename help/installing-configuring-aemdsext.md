@@ -6,10 +6,10 @@ content-type: reference
 topic-tags: installing
 discoiquuid: f1cdf344-efe4-4cb5-9fc3-47ee4ba5faf4
 exl-id: 88759737-d57f-4354-951e-ad9f62d0a872
-source-git-commit: a15d49cdd21ccb8e6ec6c770a92bf16cb24ffaa1
+source-git-commit: 13c487b13acb0d65f02301c881bfade512428bcd
 workflow-type: tm+mt
-source-wordcount: '2796'
-ht-degree: 100%
+source-wordcount: '2764'
+ht-degree: 99%
 
 ---
 
@@ -40,7 +40,7 @@ Microsoft Office용 Document Security Extension을 설치하기 전에 다음 �
 >
 >64비트 운영 체제에 32비트 버전의 Document Security 확장을 설치하면 지원되지만 반대로는 지원되지 않습니다. 32비트 운영 체제에는 64비트 버전의 Microsoft Office용 Document Security Extension을 설치할 수 없습니다.
 
-### McAfee VirusScan&amp; 비활성화 {#disable-mcafee-virusscan}
+### McAfee VirusScan&amp; 비활성화  {#disable-mcafee-virusscan}
 
 Document Security Extension이 설치되어 있고 실시간 검색이 활성화된 McAfee VirusScan이 있는 컴퓨터에서 Office 애플리케이션이 원활하게 시작되도록 하려면 McAfee VirusScan 콘솔에서 버퍼 오버플로 방지 옵션을 비활성화하십시오.
 
@@ -103,7 +103,13 @@ Microsoft Office용 Document Security Extension을 설치하는 사용자가 연
 
 ### 설치 관리자 맞춤화를 위한 사전 요구 사항 {#prerequisites-for-customizing-the-installer}
 
-Orca 데이터베이스 편집기를 사용하여 설치 관리자를 맞춤화하십시오. 다음 단계에서는 Orca 데이터베이스 편집기를 사용하여 MSI 설치 파일의 사본을 수정하여 사용자 지정 MSI 파일을 만드는 방법을 설명합니다. Orca는 Windows Server 2008 및 .NET Framework 3.5용 Windows SDK의 일부로 제공됩니다. Microsoft Windows® 설치 관리자 파일을 편집하는 방법에 대한 자세한 내용은 [Microsoft 지원](http://support.microsoft.com/kb/255905/EN-US/)을 참조하십시오.
+Orca 데이터베이스 편집기를 사용하여 설치 관리자를 맞춤화하십시오. 다음 단계에서는 Orca 데이터베이스 편집기를 사용하여 MSI 설치 파일의 사본을 수정하여 사용자 지정 MSI 파일을 만드는 방법을 설명합니다. Orca는 Windows Server 2008 및 .NET Framework 3.5용 Windows SDK의 일부로 사용할 수 있습니다.
+
+<!--
+
+For more information about how to edit Microsoft Windows® Installer files using Orca, see [Microsoft Support](http://support.microsoft.com/kb/255905/EN-US/).
+
+-->
 
 >[!NOTE]
 >
@@ -111,7 +117,7 @@ Orca 데이터베이스 편집기를 사용하여 설치 관리자를 맞춤화�
 
 #### Orca 설치 {#install-orca}
 
-1. [Microsoft 다운로드 센터](http://www.microsoft.com/download/en/details.aspx?displaylang=en&amp;id=11310)에서 Windows Server 2008 및 .NET Framework 3.5용 Windows SDK를 다운로드합니다.
+1. Windows Server 2008 및 .NET Framework 3.5용 Windows SDK를 다운로드합니다.
 1. \Microsoft SDK\bin 폴더에서 Orca.msi 파일을 더블 클릭합니다.
 
    설치 관리자 파일의 MSI 변형도 필요합니다. 최신 버전의 MSI 설치 관리자를 받으려면 Adobe 지원에 문의하십시오.
@@ -179,7 +185,7 @@ Orca 데이터베이스 편집기를 사용하여 설치 관리자를 맞춤화�
 * 사용자가 보호되지 않은 문서를 편집하고 저장함
 * 사용자가 기본 문서로 열리는 애플리케이션을 열고 편집한 다음 문서를 저장함
 
-### MSI 파일에서 자동 적용 정책 기능 구성 {#configure-the-auto-apply-policy-feature-in-the-msi-file}
+### MSI 파일에서 자동 적용 정책 기능 구성  {#configure-the-auto-apply-policy-feature-in-the-msi-file}
 
 시작하기 전에 이 문서의 앞부분에서 설명한대로 LiveCycle 또는 AEM Forms 서버로 향하도록 설치 관리자를 미리 구성합니다.
 
@@ -357,7 +363,7 @@ CommonResources.dll 파일에는 리소스 템플릿에 대한 정보가 포함�
    >
    >임의의 순서로 리소스 유형을 삭제하고 추가하지 마십시오. 101 이후에 102를 구성하는 식입니다.
 
-### Microsoft Office용 AEM Document Security 확장 설치 관리자를 사용하여 사용자 지정 CommonResources.dll 파일 패키징 {#package-custom-commonresources-dll-file-with-the-installer-of-aem-document-security-extension-for-microsoft-office}
+### Microsoft Office용 AEM Document Security 확장 설치 관리자를 사용하여 사용자 지정 CommonResources.dll 파일 패키징   {#package-custom-commonresources-dll-file-with-the-installer-of-aem-document-security-extension-for-microsoft-office}
 
 사용자 지정 표지 추가를 포함하도록 CommonResources.dll 파일을 맞춤화할 수 있습니다. 파일을 사용자 지정한 후 모든 워크스테이션에서 원본 파일을 사용자 지정 파일로 수동으로 바꾸거나 자동화된 방법을 선택하여 파일을 바꿀 수 있습니다.
 
