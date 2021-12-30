@@ -1,13 +1,13 @@
 ---
 source-git-commit: 1bc44195024fc4679c7730fa9c7b309c84c55605
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '79'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
-# Microsoft Office용 AEM Document Security Extension 설명서
+# Microsoft Office 설명서용 AEM Document Security Extension
 
-Microsoft Office용 AEM Document Security Extension 설명서의 저장소입니다.
+Microsoft Office 설명서용 AEM Document Security Extension에 대한 저장소입니다.
 
 이 설명서에 대한 귀하의 기여를 환영합니다. 다음 리소스를 참조하십시오.
 
