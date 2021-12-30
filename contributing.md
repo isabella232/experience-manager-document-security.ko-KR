@@ -1,13 +1,13 @@
 ---
 source-git-commit: 3687bd5e276bd3445d12fb19d911f6a9ded1077d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '538'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
-# Microsoft Office용 AEM Document Security Extension 설명서에 기여
+# Microsoft Office 설명서용 AEM Document Security Extension에 대한 기여
 
-Microsoft Office용 AEM Document Security Extension 설명서에 기여해 주셔서 감사합니다! Adobe는 전체 Reader 커뮤니티의 기여뿐만 아니라 동료 Adobe 직원의 콘텐츠 기여 또한 환영합니다.
+Microsoft Office 설명서용 AEM Document Security Extension에 대한 기여를 선택해 주셔서 감사합니다! Adobe는 전체 Reader 커뮤니티의 기여뿐만 아니라 동료 Adobe 직원의 콘텐츠 기여 또한 환영합니다.
 
 이 파일은 설명서에 기여할 수 있는 방법을 설명하고 기여할 때 따라야 할 지침을 안내합니다.
 
