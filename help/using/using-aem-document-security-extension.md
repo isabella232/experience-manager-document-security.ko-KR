@@ -75,7 +75,7 @@ Document Security 서버가 인증서 기반 인증을 사용하는 경우 로�
 >서버에 연결할 수 없는 경우 Internet Explorer에서 Document Security 웹 페이지를 열어보십시오. Internet Explorer를 사용하여 서버에 연결할 수 없거나 대화 상자에 서버 인증서에 대한 경고가 표시되면 Microsoft® Office용 Document Security Extension이 서버에 연결할 수 없습니다. 도움이 필요하면 서버 관리자에게 문의하십시오.
 
 >[!NOTE]
-Document Security에 연결할 수 없는 경우 “사용자 이름과 암호가 올바르지 않습니다. 구성 설정을 확인하고 다시 시도하십시오”라는 메시지가 나타납니다. 다른 이유로 연결할 수 없는 경우 이 메시지가 나타날 수 있습니다. 처음으로 서버에 연결하는 경우 서버 이름과 포트를 올바르게 설정했는지 확인하십시오.
+>Document Security에 연결할 수 없는 경우 “사용자 이름과 암호가 올바르지 않습니다. 구성 설정을 확인하고 다시 시도하십시오”라는 메시지가 나타납니다. 다른 이유로 연결할 수 없는 경우 이 메시지가 나타날 수 있습니다. 처음으로 서버에 연결하는 경우 서버 이름과 포트를 올바르게 설정했는지 확인하십시오.
 
 #### 기본 서버 지정 {#specify-the-default-server}
 
@@ -109,7 +109,7 @@ AEM Forms Document Security와 함께 서드파티 인증 공급자를 사용할
    **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
    >[!NOTE]
-   URL에 정규화된 이름을 사용하십시오. HTTPS 프로토콜을 사용하는 것이 좋습니다.
+   >URL에 정규화된 이름을 사용하십시오. HTTPS 프로토콜을 사용하는 것이 좋습니다.
 
    이제 AEM Forms 문서 보안은 기본 AEM Forms 랜딩 URL을 사용한 확장 인증을 사용하도록 구성됩니다.
 
@@ -133,7 +133,7 @@ AEM Forms Document Security와 함께 서드파티 인증 공급자를 사용할
 1. *&lt;node name=&quot;AllowedUrls&quot;>* 항목 뒤에 SSO 노드 아래의 config.xml 파일에 다음 항목을 추가하십시오.
 
    >[!NOTE]
-   &lt;entry key=&quot;sso-l&quot; value=&quot;/ sample_/login.jsp&quot;/>!!discoiqbr!!&lt;entry key=&quot;sso-s&quot; value=&quot;/ sample_/welcome.jsp&quot;>!!discoiqbr!!&lt;entry key=&quot;sso-o&quot; value=&quot;/ sample_/logout.jsp&quot;/>!!discoiqbr!!
+   >&lt;entry key=&quot;sso-l&quot; value=&quot;/ sample_/login.jsp&quot;/>!!discoiqbr!!&lt;entry key=&quot;sso-s&quot; value=&quot;/ sample_/welcome.jsp&quot;>!!discoiqbr!!&lt;entry key=&quot;sso-o&quot; value=&quot;/ sample_/logout.jsp&quot;/>!!discoiqbr!!
 
    onfig.xml 파일 업데이트에 대한 단계별 정보는 [문서 보안 구성 파일 수동 편집](https://helpx.adobe.com/kr/aem-forms/6-3/admin-help/configuring-client-server-options.html#manually_editing_the_document_security_configuration_file)을 참조하십시오.
 
@@ -178,7 +178,7 @@ Document Security 계정이 아직 없는 경우 다음과 같은 이벤트가 �
 계정을 등록하고 활성화한 후 정책을 통해 사용 권한이 부여된 정책 보호 파일을 사용할 수 있습니다.
 
 >[!NOTE]
-정책으로 보호된 파일을 받았지만 Document Security 계정이 없거나 등록 초대를 받은 경우 파일을 보낸 사람에게 도움을 요청하십시오.
+>정책으로 보호된 파일을 받았지만 Document Security 계정이 없거나 등록 초대를 받은 경우 파일을 보낸 사람에게 도움을 요청하십시오.
 
 Document Security에서 이메일 등록 초대를 받은 경우 이메일의 URL을 사용하여 온라인 등록 페이지를 열어 등록할 수 있습니다. 등록하면 계정 활성화에 대한 두 번째 알림을 받게 됩니다.
 
@@ -189,7 +189,7 @@ Document Security에서 이메일 등록 초대를 받은 경우 이메일의 UR
 1. 해당 상자에 이름, 조직 및 암호를 입력합니다. 아무 8자의 조합이 암호가 될 수 있습니다.
 
    >[!NOTE]
-   기억하기 쉬운 암호를 선택하십시오. 잊어 버린 암호를 찾는 방법은 없습니다.
+   >기억하기 쉬운 암호를 선택하십시오. 잊어 버린 암호를 찾는 방법은 없습니다.
 
 1. **등록**&#x200B;을 클릭합니다. 이메일에서 활성화 이메일 메시지를 확인하라는 메시지가 나타납니다.
 1. Document Security 등록 확인 이메일을 엽니다.
@@ -327,7 +327,7 @@ Document Security 웹 페이지에서 정책을 만드는 데 사용할 수 있�
 정책을 적용하면 가장 자주 사용하는 정책을 보다 쉽게 적용할 수 있도록 AEM Document Security 메뉴의 최근 사용 목록에 추가됩니다. Document Security 인스턴스를 두 개 이상 사용하는 경우 최근 사용 목록에는 현재 연결되어 있는 서버에 대한 정책만 표시되고, Document Security 인스턴스에 아직 로그인하지 않은 경우 기본 서버에 대한 정책만 표시됩니다.
 
 >[!NOTE]
-Word 문서 파일(Microsoft® Office 2010 및 2013의 경우 .doc, also.docx 및 .docm), Excel 통합 문서 파일(Microsoft® Office 2010 및 2013의 경우 .xls, .xlsx 및 .xlsm), PowerPoint 프레젠테이션 파일(Microsoft® Office 2010 및 2013의 경우 .ppt, .pptx 및 .pptm)에만 정책을 적용할 수 있습니다. Word 템플릿 파일(.dot), Excel 템플릿 파일(.xlt) 및 PowerPoint 디자인 템플릿 파일(.pot)에는 정책을 적용할 수 없습니다.
+>Word 문서 파일(Microsoft® Office 2010 및 2013의 경우 .doc, also.docx 및 .docm), Excel 통합 문서 파일(Microsoft® Office 2010 및 2013의 경우 .xls, .xlsx 및 .xlsm), PowerPoint 프레젠테이션 파일(Microsoft® Office 2010 및 2013의 경우 .ppt, .pptx 및 .pptm)에만 정책을 적용할 수 있습니다. Word 템플릿 파일(.dot), Excel 템플릿 파일(.xlt) 및 PowerPoint 디자인 템플릿 파일(.pot)에는 정책을 적용할 수 없습니다.
 
 #### 정책 적용 {#apply-a-policy}
 
@@ -358,7 +358,7 @@ Microsoft® Office용 Document Security Extension은 파일 게시자의 지적 
 정책으로 보호된 파일로 작업하는 경우 일부 제품 기능을 사용할 수 없거나 평소처럼 작동하지 않을 수 있습니다. 보호되지 않은 파일도 열려 있는 경우 보호되지 않은 파일에 대한 대부분의 기능이 활성화됩니다. 복사 또는 내보내기 권한이 없는, 정책으로 보호된 파일에서 콘텐츠를 가져오거나 복사할 수 있는 기능은 제외합니다.
 
 >[!NOTE]
-Document Security Extension 지원 Office 애플리케이션을 사용하는 경우 Windows DEP 설정을 비활성화하는 것이 좋습니다. 또한 Document Security Extension이 설치되어 있고 실시간 검색이 활성화된 McAfee VirusScan이 있는 컴퓨터에서 Office 애플리케이션이 원활하게 시작되도록 하려면 McAfee VirusScan 콘솔에서 버퍼 오버플로 방지 옵션을 비활성화하십시오.
+>Document Security Extension 지원 Office 애플리케이션을 사용하는 경우 Windows DEP 설정을 비활성화하는 것이 좋습니다. 또한 Document Security Extension이 설치되어 있고 실시간 검색이 활성화된 McAfee VirusScan이 있는 컴퓨터에서 Office 애플리케이션이 원활하게 시작되도록 하려면 McAfee VirusScan 콘솔에서 버퍼 오버플로 방지 옵션을 비활성화하십시오.
 
 기능을 사용할 수 없는 경우 메뉴의 명령 이름과 관련 도구 모음 버튼을 사용할 수 없습니다. Microsoft® Office용 Document Security Extension에서 명령이나 버튼 위에 마우스 포인터를 올려 놓으면 Document Security에서 해당 명령을 사용할 수 없다는 도구 설명이 표시됩니다.
 
@@ -385,7 +385,7 @@ Document Security에 구현된 인증 방법에 따라 보호된 문서를 열 �
    Document Security를 위한 로그인 정보를 아직 제공하지 않은 경우 사용자 이름과 암호를 묻는 대화 상자가 나타납니다.
 
 >[!NOTE]
-보호 설정한 파일에서 정책을 제거할 수 없는 경우 문서 보안 관리자에게 문의하십시오.
+>보호 설정한 파일에서 정책을 제거할 수 없는 경우 문서 보안 관리자에게 문의하십시오.
 
 ### 보안 설정 보기 {#viewing-security-settings}
 
@@ -404,7 +404,7 @@ Microsoft® Office 2010용 Document Security Extension에서는 Document Securit
 자동 적용 정책이 활성화된 경우 Microsoft® Office용 Document Security Extension은 Document Security 서버에 로그인하라는 메시지를 표시합니다. 서버에서 인증을 받으려면 사용자 이름과 암호를 제공해야 합니다. 올바른 로그인 자격 증명을 제공한 경우 문서가 저장되고 보호됩니다.
 
 >[!NOTE]
-Document Security에 로그인할 수 없는 경우 문서가 저장될 수도, 저장되지 않을 수도 있습니다. 관리자가 자동 적용 정책을 구성한 방법에 따라 달라집니다. 이런 상황에서는 문서가 어떻게 처리되는지 관리자에게 문의하십시오.
+>Document Security에 로그인할 수 없는 경우 문서가 저장될 수도, 저장되지 않을 수도 있습니다. 관리자가 자동 적용 정책을 구성한 방법에 따라 달라집니다. 이런 상황에서는 문서가 어떻게 처리되는지 관리자에게 문의하십시오.
 
 ### 오프라인 액세스를 위한 동기화 {#synchronizing-for-offline-access}
 
@@ -542,7 +542,7 @@ Document Security 웹 페이지는 현재 파일에 대해 감사된 이벤트�
 명령을 사용할 수 없는 경우 메뉴의 명령 이름과 관련 도구 모음 버튼이 회색으로 표시됩니다.
 
 >[!NOTE]
-임베디드 파일에 대한 링크가 포함된 파일에 정책을 적용하면 링크된 파일에 정책이 적용되지 않습니다 Microsoft® Office용 Document Security는 링크된 파일에 대한 보호를 확장하지 않습니다.
+>임베디드 파일에 대한 링크가 포함된 파일에 정책을 적용하면 링크된 파일에 정책이 적용되지 않습니다 Microsoft® Office용 Document Security는 링크된 파일에 대한 보호를 확장하지 않습니다.
 
 * 정책으로 보호된 Word, Excel 및 PowerPoint 파일은 Internet Explorer 브라우저 창에서 열리지 않도록 차단됩니다.
 * 변경 권한만 부여된 사용자는 Windows 클립보드를 사용하여 다른 애플리케이션에서 파일로 콘텐츠를 복사할 수 없습니다. 사용자는 Microsoft® Office 클립보드 옵션을 활성화하여 콘텐츠를 파일로 복사할 수 있습니다.
