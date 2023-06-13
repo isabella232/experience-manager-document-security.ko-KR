@@ -7,7 +7,7 @@ topic-tags: installing
 discoiquuid: c9342c28-8289-4831-a613-4bc03431f557
 exl-id: 582f10bb-60d2-46ed-b81d-5818a040edc6
 source-git-commit: 28137f26afc024d411857d44887bf69fe1ee2b81
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1030'
 ht-degree: 100%
 
@@ -35,9 +35,9 @@ Microsoft Office용 AEM Document Security Extension을 설치하기 전에 이 �
 
 ## 알려진 문제 {#known-issues}
 
-### 서드 파티 플러그인이 지원되지 않음 {#third-party-plug-ins-not-supported}
+### 서드파티 플러그인이 지원되지 않음 {#third-party-plug-ins-not-supported}
 
-Microsoft Office용 AEM Document Security Extension은 서드 파티 플러그인에서 작동하지 않습니다. Microsoft Office용 Document Security Extension을 설치하기 전에 Microsoft Office용 서드 파티 플러그인을 제거하십시오.
+Microsoft Office용 AEM Document Security Extension은 서드파티 플러그인에서 작동하지 않습니다. Microsoft Office용 Document Security Extension을 설치하기 전에 Microsoft Office용 서드파티 플러그인을 제거하십시오.
 
 ### Microsoft Word, Excel 및 PowerPoint에서 비활성화된 메뉴 옵션 {#disabled-menu-options-in-microsoft-word-excel-and-powerpoint}
 
