@@ -7,8 +7,8 @@ topic-tags: installing
 discoiquuid: f1cdf344-efe4-4cb5-9fc3-47ee4ba5faf4
 exl-id: 88759737-d57f-4354-951e-ad9f62d0a872
 source-git-commit: 28137f26afc024d411857d44887bf69fe1ee2b81
-workflow-type: tm+mt
-source-wordcount: '2764'
+workflow-type: ht
+source-wordcount: '2775'
 ht-degree: 100%
 
 ---
@@ -55,11 +55,11 @@ Microsoft Office용 AEM Document Security Extension은 Microsoft Office 애플�
 Document Security Extension을 설치할 다음 최소 구성을 확인하십시오.
 
 * 영어, 프랑스어, 독일어, 일본어, 이탈리아어, 스페인어, 포르투갈어(브라질), 한국어, 중국어 간체 또는 중국어 번체로 된 32비트 또는 64비트 버전의 Microsoft Windows 7 또는 Windows 10.
-   **참고:** *Microsoft Office용 문서 보안 확장 기능은 Microsoft Surface 디바이스에서도 작동합니다.*
+  **참고:** *Microsoft Office용 문서 보안 확장 기능은 Microsoft Surface 디바이스에서도 작동합니다.*
 
 * 영어, 프랑스어, 독일어, 일본어, 이탈리아어, 스페인어, 포르투갈어(브라질), 한국어, 중국어 간체 또는 중국어 번체로 된 32비트 또는 64비트 버전 Microsoft Office 2013, 2016, 2019 및 Office 365의 일부로 설치된 Microsoft Office 데스크탑 애플리케이션.
 
-   **참고**: *Microsoft Office용 AEM Document Security Extension은 Microsoft Office 애플리케이션용 서드 파티 플러그인을 지원하지 않습니다. 이 확장은 서드 파티 플러그인과 충돌할 수 있으므로 Microsoft Office용 Document Security Extension을 설치하기 전에 Microsoft Office 애플리케이션용 Adobe 이외의 플러그인을 제거해야 합니다. Adobe는 서드 파티 플러그인이 설치된 Microsoft Office 애플리케이션용 Document Security Extension을 지원하지 않습니다.*
+  **참고**: *Microsoft Office용 AEM Document Security Extension은 Microsoft Office 애플리케이션용 서드 파티 플러그인을 지원하지 않습니다. 이 확장은 서드 파티 플러그인과 충돌할 수 있으므로 Microsoft Office용 Document Security Extension을 설치하기 전에 Microsoft Office 애플리케이션용 Adobe 이외의 플러그인을 제거해야 합니다. Adobe는 서드 파티 플러그인이 설치된 Microsoft Office 애플리케이션용 Document Security Extension을 지원하지 않습니다.*
 
 * 1.3GHz 프로세서 이상
 * 2GB RAM
